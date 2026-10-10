@@ -1,6 +1,6 @@
 # Employee Attrition & Workforce Cost Dashboard
 
-An interactive Streamlit dashboard that analyzes why employees leave and estimates what that attrition costs the business.
+An interactive Streamlit dashboard that analyzes which employees leave and estimates what that attrition costs the business.
 
 🔗 **Live demo:** https://employee-attrition-cost-dashboard-bk3xddct8pmagjghd6rrxs.streamlit.app/
 
@@ -68,7 +68,7 @@ Based on the findings, a company could:
 
 1. Review pay and retention plans for low-salary roles, where attrition is highest.
 2. Look into why HR, Accounting, and Technical teams have higher attrition than other departments.
-3. Track satisfaction scores regularly, since satisfaction differs between employees who stayed and those who left.
+3.Track satisfaction regularly, but don’t rely on it alone: most employees who left had low satisfaction (clusters near 0.1 and 0.4), yet a smaller group left despite scores of about 0.7 to 0.9.
 
 *These patterns show association, not proof of cause. Further analysis (such as exit interviews) would be needed to confirm reasons.*
 
